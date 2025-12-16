@@ -106,10 +106,12 @@ body {
   width: 340px;
   min-height: 233px;
   margin: 200px auto 0;
-  color: rgba(23, 23, 23, 1);
   font-family: Noto Sans;
   background-color: var(--color-white);
   padding: 24px;
+  border-radius: var(--border-radius-rounded-lg8px, 8px);
+    color: rgba(82, 82, 82, 1);
+    box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.1), 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
   .testimonial-card__header {
     display: flex;
     gap: 16px;
@@ -121,6 +123,7 @@ body {
       margin: 0;
     }
     .testimonial-card__header__name-block {
+      color: rgba(23, 23, 23, 1);
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -132,6 +135,7 @@ body {
       .testimonial-card__header__name-block__tag{
         font-size: 14px;
         font-weight: 400;
+        color: rgba(82, 82, 82, 1);
       }
     }
   }
